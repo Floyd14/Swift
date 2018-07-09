@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		6502864120F201F7001B64BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502864020F201F7001B64BF /* AppDelegate.swift */; };
-		6502864320F201F7001B64BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502864220F201F7001B64BF /* ViewController.swift */; };
-		6502864620F201F7001B64BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6502864420F201F7001B64BF /* Main.storyboard */; };
 		6502864820F201F7001B64BF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6502864720F201F7001B64BF /* Assets.xcassets */; };
-		6502864B20F201F7001B64BF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6502864920F201F7001B64BF /* LaunchScreen.storyboard */; };
 		6502865620F201F7001B64BF /* Calculator_testTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502865520F201F7001B64BF /* Calculator_testTests.swift */; };
 		6502866120F201F7001B64BF /* Calculator_testUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502866020F201F7001B64BF /* Calculator_testUITests.swift */; };
+		6502867720F3FF9E001B64BF /* Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 6502867020F3FF9D001B64BF /* Info.plist */; };
+		6502867920F3FF9E001B64BF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 6502867220F3FF9D001B64BF /* Main.storyboard */; };
+		6502867B20F3FF9E001B64BF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502867420F3FF9D001B64BF /* AppDelegate.swift */; };
+		6502867C20F3FF9E001B64BF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6502867520F3FF9E001B64BF /* ViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,18 +35,17 @@
 
 /* Begin PBXFileReference section */
 		6502863D20F201F7001B64BF /* Calculator_test.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Calculator_test.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		6502864020F201F7001B64BF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		6502864220F201F7001B64BF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		6502864520F201F7001B64BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		6502864720F201F7001B64BF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		6502864A20F201F7001B64BF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		6502864C20F201F7001B64BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6502865120F201F7001B64BF /* Calculator_testTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator_testTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6502865520F201F7001B64BF /* Calculator_testTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_testTests.swift; sourceTree = "<group>"; };
 		6502865720F201F7001B64BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6502865C20F201F7001B64BF /* Calculator_testUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = Calculator_testUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6502866020F201F7001B64BF /* Calculator_testUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Calculator_testUITests.swift; sourceTree = "<group>"; };
 		6502866220F201F7001B64BF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6502867020F3FF9D001B64BF /* Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; name = Info.plist; path = ../../../../../.Trash/Info.plist; sourceTree = "<group>"; };
+		6502867220F3FF9D001B64BF /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		6502867420F3FF9D001B64BF /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = AppDelegate.swift; path = ../../../../../.Trash/AppDelegate.swift; sourceTree = "<group>"; };
+		6502867520F3FF9E001B64BF /* ViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ViewController.swift; path = ../../../../../.Trash/ViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,12 +96,11 @@
 		6502863F20F201F7001B64BF /* Calculator_test */ = {
 			isa = PBXGroup;
 			children = (
-				6502864020F201F7001B64BF /* AppDelegate.swift */,
-				6502864220F201F7001B64BF /* ViewController.swift */,
-				6502864420F201F7001B64BF /* Main.storyboard */,
+				6502867220F3FF9D001B64BF /* Main.storyboard */,
+				6502867420F3FF9D001B64BF /* AppDelegate.swift */,
+				6502867520F3FF9E001B64BF /* ViewController.swift */,
+				6502867020F3FF9D001B64BF /* Info.plist */,
 				6502864720F201F7001B64BF /* Assets.xcassets */,
-				6502864920F201F7001B64BF /* LaunchScreen.storyboard */,
-				6502864C20F201F7001B64BF /* Info.plist */,
 			);
 			path = Calculator_test;
 			sourceTree = "<group>";
@@ -232,9 +230,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6502864B20F201F7001B64BF /* LaunchScreen.storyboard in Resources */,
+				6502867720F3FF9E001B64BF /* Info.plist in Resources */,
+				6502867920F3FF9E001B64BF /* Main.storyboard in Resources */,
 				6502864820F201F7001B64BF /* Assets.xcassets in Resources */,
-				6502864620F201F7001B64BF /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -259,8 +257,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6502864320F201F7001B64BF /* ViewController.swift in Sources */,
-				6502864120F201F7001B64BF /* AppDelegate.swift in Sources */,
+				6502867C20F3FF9E001B64BF /* ViewController.swift in Sources */,
+				6502867B20F3FF9E001B64BF /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,25 +292,6 @@
 			targetProxy = 6502865D20F201F7001B64BF /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
-
-/* Begin PBXVariantGroup section */
-		6502864420F201F7001B64BF /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6502864520F201F7001B64BF /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
-		6502864920F201F7001B64BF /* LaunchScreen.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				6502864A20F201F7001B64BF /* Base */,
-			);
-			name = LaunchScreen.storyboard;
-			sourceTree = "<group>";
-		};
-/* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
 		6502866320F201F7001B64BF /* Debug */ = {
@@ -427,7 +406,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Calculator_test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../../.Trash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AV.Calculator-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -441,7 +420,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
-				INFOPLIST_FILE = Calculator_test/Info.plist;
+				INFOPLIST_FILE = "$(SRCROOT)/../../../../.Trash/Info.plist";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "AV.Calculator-test";
 				PRODUCT_NAME = "$(TARGET_NAME)";
